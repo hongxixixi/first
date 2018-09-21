@@ -1,0 +1,103 @@
+<%@ page language="java" contentType="text/html; charset=utf-8"
+    %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>歌手</title>
+<link rel="stylesheet" type="text/css" href="musician.css">
+<script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+<script src="musician.js"></script>
+
+</head>
+<body>
+<div id="title-bar">
+<img src="img/kumusic.jpg" id="kum">
+<ul>
+<a href="home-page.jsp" style="color:white;"><li>首页</li></a>
+<a href="list.jsp" style="color:white;"><li>榜单</li></a>
+<li>歌手</li>
+<a href="download.jsp" style="color:white;"><li>下载酷我音乐客户端</li></a>
+<li>首页</li>
+<li>更多服务</li>
+<li>登录</li> 
+<img src="img/arrowdown.png" id="up">
+<img src="img/arrowup.png" id="down" style="display:none">
+ <li><input type="text" value="找到好音乐"></li>
+</ul>
+<div id="loginbox" style="display:none" >
+<ul>
+<li><img src="img/kuwo.png">酷我账号登录</li>
+<li><img src="img/tengxun.png">新浪微博登录</li>
+<li><img src="img/qq.png">QQ账号登录</li>
+</ul>
+</div>
+</div>
+
+<div id="contend">
+<div id="con">
+
+<div id="left">
+<div>
+<p style="border-left:3px solid #ffbb00;">全部歌手</p>
+</div>
+<div>
+<a href="#pic1"><p>华语歌手</p></a>
+<a href="#pic2"><p>华语男歌手</p></a>
+<a href="#pic3"><p>华语女歌手</p></a>
+<p>华语组合</p>
+</div>
+<div>
+<p>日韩歌手</p>
+<p>日韩男歌手</p>
+<p>日韩女歌手</p>
+<p>日韩组合</p>
+</div>
+<div>
+<p>欧美歌手</p>
+<p>欧美男歌手</p>
+<p>欧美女歌手</p>
+<p>欧美组合</p>
+</div>
+</div>
+
+<div id="right">
+<div id="right-title">
+<a href="http://www.kuwo.cn/artist/index">热门</a>
+<a href="#pic1">A</a>
+<a href="#pic2">B</a>
+<a href="#pic3">C</a>
+<a>D</a>
+<a>E</a>
+<a>F</a>
+<a>G</a>
+<a>H</a>
+<a>I</a>
+<a>J</a>
+<a>K</a>
+<a>L</a>
+<a>M</a>
+<a>N</a>
+</div>
+<div id="right-picture" > 
+<img src="img/musician1.png" id="pic1">
+<img src="img/musician2.png" id="pic2">
+<img src="img/musician3.png" id="pic3">
+</div>
+
+</div>
+
+
+</div>
+</div>
+
+<div id="footer">
+<p>全力做好网上治安秩序打击整治专项行动，打造晴朗网络空间</p>
+<p>网站地图 | 联系我们 | 广告服务 | 诚聘英才 | 用户服务协议 | 隐私政策 | 酷我音乐网站免责声明 | 酷我音乐网站著作权保护声明 | 未成年人家长监护工程</p>
+<p>北京酷我科技有限公司版权所有 网络文化经营许可证： 京网文[2015]0525-205号 信息网络传播视听节目许可证0109362号 增值电信业务经营许可证B2-20090418 京ICP证060261号</p>
+<p>广播电视节目制作经营许可证京字第2037号 营业性演出许可证京市演1574  京公网安备 11010502030216号  京ICP备09014827号</p>
+<p>举报电话：010-80121810 举报邮箱：support@kuwo.cn</p>
+</div>
+
+</body>
+</html>
